@@ -21,7 +21,7 @@ function mobileCheck() {
 }
 
 function desktopHeaderSize() {
-    headerEl.innerHTML = '';
+    headerEl.innerHTML = 'test';
     var scrollspyDelay = 500;
     console.log("Changed to desktop")
 
