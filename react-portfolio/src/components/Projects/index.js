@@ -21,7 +21,7 @@ function Projects(){
                 </div>
                 <div>
                     <a href="https://jasoffen.github.io/Code-Quiz/" target="_blank">
-                        <img src="../public/assets/" />
+                        <img src="../public/assets/images/CodeQuiz.png" />
                         <div class="uk-card uk-card-default uk-card-body">This is a 6 Question coding challenge.</div>
                     </a>
                 </div>
