@@ -41,31 +41,31 @@ function desktopHeaderSize() {
         if (i == 2) {
             //modifying the elements
             buttonEl.setAttribute('uk-scrollspy', 'target: > div; cls: uk-animation-fade; delay: 2000');
-            buttonEl.setAttribute('class', 'uk-flex uk-flex-middle');
-            buttonAnimationType.setAttribute('uk-scrollspy-class', 'uk-animation-slide-top');
+            buttonEl.setAttribute('className', 'uk-flex uk-flex-middle');
+            buttonAnimationType.setAttribute('uk-scrollspy-className', 'uk-animation-slide-top');
             buttonLink.setAttribute('href', '#');
             buttonH1.textContent = buttonArray[i];
         } else if (i == 3) {
             //modifying the elements
             buttonEl.setAttribute('uk-scrollspy', 'target: > div; cls: uk-animation-fade; delay: ' + scrollspyDelay);
-            buttonEl.setAttribute('class', 'uk-flex uk-flex-middle');
-            buttonAnimationType.setAttribute('uk-scrollspy-class', 'uk-animation-fade');
+            buttonEl.setAttribute('className', 'uk-flex uk-flex-middle');
+            buttonAnimationType.setAttribute('uk-scrollspy-className', 'uk-animation-fade');
             buttonLink.setAttribute('href', 'https://github.com/JasOffen');
             buttonLink.setAttribute('target', '_blank');
             buttonH3.textContent = buttonArray[i];
-            buttonFlexType.setAttribute('class', 'uk-flex-inline')
-            buttonBadge.setAttribute('class', 'uk-badge');
+            buttonFlexType.setAttribute('className', 'uk-flex-inline')
+            buttonBadge.setAttribute('className', 'uk-badge');
             buttonBadge.textContent = 10;
         } else {
 
             //modifying the elements
             buttonEl.setAttribute('uk-scrollspy', 'target: > div; cls: uk-animation-fade; delay: ' + scrollspyDelay);
-            buttonEl.setAttribute('class', 'uk-flex uk-flex-middle');
-            buttonAnimationType.setAttribute('uk-scrollspy-class', 'uk-animation-fade');
+            buttonEl.setAttribute('className', 'uk-flex uk-flex-middle');
+            buttonAnimationType.setAttribute('uk-scrollspy-className', 'uk-animation-fade');
             buttonLink.setAttribute('href', '#' + buttonArray[i]);
             buttonH3.textContent = buttonArray[i];
         }
-        headerEl.setAttribute('class', 'uk-flex uk-flex-row uk-flex-around')
+        headerEl.setAttribute('className', 'uk-flex uk-flex-row uk-flex-around')
         //append to the page
         headerEl.appendChild(buttonEl);
         buttonEl.appendChild(buttonAnimationType);
@@ -85,7 +85,7 @@ function desktopHeaderSize() {
 
 var mobileHeaderSize = function (size) {
     headerEl.innerHTML = '';
-    headerEl.setAttribute('class', 'uk-flex uk-flex-row uk-flex-around')
+    headerEl.setAttribute('className', 'uk-flex uk-flex-row uk-flex-around')
     console.log("Changed to mobile")
 
     //create Elements
@@ -100,12 +100,12 @@ var mobileHeaderSize = function (size) {
 
     //modify Elements
 
-    navbar.setAttribute('class', '');
+    navbar.setAttribute('className', '');
     navbar.setAttribute('uk-navbar', 'mode: click');
 
-    navbarLeft.setAttribute('class', 'uk-navbar-left');
+    navbarLeft.setAttribute('className', 'uk-navbar-left');
 
-    navbarNav.setAttribute('class', 'uk-navbar-nav');
+    navbarNav.setAttribute('className', 'uk-navbar-nav');
 
     navbarli.setAttribute('id', 'hi')
 
@@ -113,9 +113,9 @@ var mobileHeaderSize = function (size) {
 
     navbarMenuToggle.setAttribute('uk-navbar-toggle-icon', '');
 
-    navbarContainer.setAttribute('class', 'uk-navbar-dropdown')
+    navbarContainer.setAttribute('className', 'uk-navbar-dropdown')
 
-    navbarList.setAttribute('class', 'uk-navbar-nav uk-flex-column');
+    navbarList.setAttribute('className', 'uk-navbar-nav uk-flex-column');
 
 
 
@@ -151,8 +151,8 @@ var mobileHeaderSize = function (size) {
     var buttonH1 = document.createElement('h1');
 
     buttonEl.setAttribute('uk-scrollspy', 'target: > div; cls: uk-animation-fade; delay: 900');
-    buttonEl.setAttribute('class', 'uk-flex uk-flex-middle');
-    buttonAnimationType.setAttribute('uk-scrollspy-class', 'uk-animation-slide-top');
+    buttonEl.setAttribute('className', 'uk-flex uk-flex-middle');
+    buttonAnimationType.setAttribute('uk-scrollspy-className', 'uk-animation-slide-top');
     buttonLink.setAttribute('href', '#');
     buttonH1.textContent = buttonArray[2];
 
