@@ -8,7 +8,7 @@
 * JSX
 * JavaScript
 * CSS(UIKit)
-* 
+
 ## Resources that can be found on this page
 
 * Github Links
@@ -16,6 +16,6 @@
 * Group Projects
 * Resume
 * Social Medias
-* 
+
 ## Contribution
 Jason Offenbaker
